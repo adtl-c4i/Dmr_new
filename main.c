@@ -1,5 +1,3 @@
- dmr_err_t err12 = ccl_data_tx_unconfirmed(&ms.data, dest, false, 0x4,
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -15,7 +13,7 @@
 #include "dmr_types.h"
 #include "dmr_ccl_data.h"
 #include "dmr_ms.h"
-#include "dmr_sds.h"
+//#include "dmr_sds.h"
 #include "dmr_lrrp.h"
 #include "dmr_mac_timer.h"
 #define Tx_DATA_TEST

@@ -1,5 +1,3 @@
-    dmr_burst_set_slot_type(raw, cc, dtype, golay_new);
-
 /**
  * @file dmr_fec.c
  * @brief MOD-02 — Burst Processor & FEC Engine Implementation

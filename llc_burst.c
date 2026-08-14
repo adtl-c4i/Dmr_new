@@ -1,5 +1,3 @@
- * After BPTC encoding (MOD-02), the 196 coded bits are interleaved and
-
 /**
  * @file llc_burst.c
  * @brief LLC burst assembly / disassembly helpers

@@ -1,5 +1,3 @@
-    llc_burst_pack(burst, body, cc, dtype, false, slot);
-
 /**
  * @file llc_csbk.c
  * @brief LLC — CSBK, Full LC, PI Header, Data Header, Data Block builders/parsers

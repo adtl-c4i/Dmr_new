@@ -1,5 +1,3 @@
-        llc_data_block_rate1_build(&req.burst, i, last,
-
 /**
  * @file dmr_ccl_data.c
  * @brief MOD-06 — Call Control Layer (CCL) Data Services
