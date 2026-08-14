@@ -1,0 +1,2 @@
+gcc *.c -o my_program -pthread -lrt
+
