@@ -851,7 +851,7 @@ void llc_data_block_rate1_build(dmr_burst_t   *burst,
     /* Copy up to 11 bytes of payload */
     size_t copy_len = payload_len < 11u ? payload_len : 11u;
     if (payload && copy_len > 0u) {
-        memcpy(body + 1, payload, copy_len);
+        memcpy(body, payload, copy_len);
     }
     dmr_crc9_append(body, 11);
 
